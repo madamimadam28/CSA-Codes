@@ -4,11 +4,13 @@
 
 The next number is found by adding up the two numbers before it.
 
-For example, the 2 is found by adding the two numbers before it (1+1). The 3 is found by adding the two numbers before it (1+2). The 5 is found by adding the two numbers before it (2+3), and so on! Each number in the sequence is called a term.
+For example, the 2 is found by adding the two numbers before it (1+1). The 3 is found by adding the two numbers before it (1+2). 
+The 5 is found by adding the two numbers before it (2+3), and so on! Each number in the sequence is called a term.
 
 In this exercise, you will need to:
 
-Create the array int[] sequence that holds the values of the first 15 terms of the Fibonacci sequence. Think carefully about what happens to the index when iterating through the loop to fill this array. Read the Fibonacci description above to help!
+Create the array int[] sequence that holds the values of the first 15 terms of the Fibonacci sequence. 
+Think carefully about what happens to the index when iterating through the loop to fill this array. Read the Fibonacci description above to help!
 Then print out the sequence of numbers separated by a space.
 Finally, create a method findNextElement that returns the element that comes after the parameter value. If the element doesn’t exist, return -1.
 Sample output:
